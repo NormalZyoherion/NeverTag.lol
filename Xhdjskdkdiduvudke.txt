@@ -283,7 +283,7 @@ end,
  tglCorner = Instance.new("UICorner") 
 }
 
-AppleWareiOS.Name = "AppleWare iOS"
+AppleWareiOS.Name = "Nebulaware ANDROID"
 AppleWareiOS.Parent = gethui()
 
 utils.MainToggle.Name = "MainToggle"
@@ -348,7 +348,7 @@ CTCzone.Size = UDim2.new(0, 218, 0, 35)
 CTCzone.ImageTransparency = 1
 CTCzone.AutoButtonColor = false
 
-AppleWare.Name = "AppleWare"
+AppleWare.Name = "NebulaWare"
 AppleWare.Parent = CTCzone
 AppleWare.BackgroundTransparency = 1.000
 AppleWare.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -356,20 +356,20 @@ AppleWare.BorderSizePixel = 0
 AppleWare.Position = UDim2.new(0, 31, 0.3, -1)
 AppleWare.Size = UDim2.new(0, 127, 0, 16)
 AppleWare.FontFace = Font.new("rbxassetid://11702779409", Enum.FontWeight.Bold, Enum.FontStyle.Italic) 
-AppleWare.Text = "Apple-Ware"
+AppleWare.Text = "Nebula-Ware"
 AppleWare.TextColor3 = Color3.fromRGB(235, 235, 235)
 AppleWare.TextSize = 14.000
 AppleWare.TextXAlignment = Enum.TextXAlignment.Left
 AppleWare.TextYAlignment = Enum.TextYAlignment.Top
 
-AWlogo.Name = "AWlogo"
+AWlogo.Name = "NWlogo"
 AWlogo.Parent = CTCzone
 AWlogo.BackgroundTransparency = 1.000
 AWlogo.BorderColor3 = Color3.fromRGB(27, 42, 53)
 AWlogo.BorderSizePixel = 0
 AWlogo.Position = UDim2.new(0, 6, 0, 4)
 AWlogo.Size = UDim2.new(0, 17, 0, 27)
-AWlogo.Image = "http://www.roblox.com/asset/?id=17810210522"
+AWlogo.Image = "http://www.roblox.com/asset/?id=73388097631782"
 
 versionBG.Name = "versionBG"
 versionBG.Parent = CTCzone
@@ -379,7 +379,7 @@ versionBG.BorderSizePixel = 0
 versionBG.Position = UDim2.new(0, 143, 0.200000003, 1)
 versionBG.Size = UDim2.new(0, 63, 0, 15)
 
-V002.Name = "v1.0.6"
+V002.Name = "v1.0.0"
 V002.Parent = VersionBG
 V002.BackgroundTransparency = 1.000
 V002.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -387,7 +387,7 @@ V002.BorderSizePixel = 0
 V002.Position = UDim2.new(0, 0, 0, 1)
 V002.Size = UDim2.new(0, 63, 1, 0)
 V002.FontFace =  Font.new("rbxassetid://11702779409", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-V002.Text = "v1.0.6"
+V002.Text = "v1.0.0"
 V002.TextColor3 = Color3.fromRGB(235, 235, 235)
 V002.TextSize = 14
 
@@ -397,7 +397,7 @@ UIGradient_2.Parent = versionBG
 UICorner_2.CornerRadius = UDim.new(0, 5)
 UICorner_2.Parent = versionBG
 
-ios.Name = "ios"
+ios.Name = "ANDROID"
 ios.Parent = CTCzone
 ios.BackgroundTransparency = 1.000
 ios.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -405,7 +405,7 @@ ios.BorderSizePixel = 0
 ios.Position = UDim2.new(0, 100, 0.3, -1)
 ios.Size = UDim2.new(0, 37, 0, 16)
 ios.FontFace =  Font.new("rbxassetid://11702779409", Enum.FontWeight.Bold, Enum.FontStyle.Italic)
-ios.Text = "| iOS"
+ios.Text = "| ANDROID"
 ios.TextColor3 = Color3.fromRGB(255, 255, 255)
 ios.TextSize = 14.000
 ios.TextXAlignment = Enum.TextXAlignment.Left
@@ -1116,7 +1116,7 @@ UIStroke_3.Parent = takemodzzPFP
 UICorner_19.CornerRadius = UDim.new(0, 5)
 UICorner_19.Parent = takemodzzPFP
 
-TakeModzz.Name = "TakeModzz"
+TakeModzz.Name = "ZEPH AKA CO-FOUNDER"
 TakeModzz.Parent = MODZZ
 TakeModzz.BackgroundTransparency = 1.000
 TakeModzz.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -1124,13 +1124,13 @@ TakeModzz.BorderSizePixel = 0
 TakeModzz.Position = UDim2.new(0, 45, 0, 10)
 TakeModzz.Size = UDim2.new(0, 90, 0, 18)
 TakeModzz.FontFace =  Font.new("rbxassetid://11702779409", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-TakeModzz.Text = "TakeModzz"
+TakeModzz.Text = "ZEPH AKA CO FOUNDER"
 TakeModzz.TextColor3 = Color3.fromRGB(255, 255, 255)
 TakeModzz.TextSize = 14.000
 TakeModzz.TextXAlignment = Enum.TextXAlignment.Left
 
 Frame32_3.Name = "Frame 32"
-Frame32_3.Parent = MODZZ
+Frame32_3.Parent = ZEPH
 Frame32_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame32_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Frame32_3.BorderSizePixel = 0
