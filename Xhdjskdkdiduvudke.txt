@@ -2020,9 +2020,9 @@ function fetchScripts(query, page)
 	page = page or 1
 	query = httpService:UrlEncode(query)
 	
-	local url = _if(query == "", "https://www.scriptblox.com/api/script/fetch?page="..tostring(page), "https://scriptblox.com/api/script/search?q="..query.."&max=100&mode=free&page=".. tostring(page))
-	local req = httpService:JSONDecode(game:HttpGetAsync(url)).result
-	
+	local url = _if(query == "", "https://www.scriptblox.com/api/script/fetch?page="..tostring(page)", "https://scriptblox.com/api/script/search?q="..query.."&max=100&mode=free&page=".. tostring(page))
+	local req = httpService:JSONDecode(game:HttpGetAsync(url)).result	
+
 	return req.scripts
 end 
  
