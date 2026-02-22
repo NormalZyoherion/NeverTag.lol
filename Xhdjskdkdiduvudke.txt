@@ -283,11 +283,11 @@ end,
  tglCorner = Instance.new("UICorner") 
 }
 
-AppleWareiOS.Name = "Nebulaware ANDROID"
+AppleWareiOS.Name = "Nebula-Ware"
 AppleWareiOS.Parent = gethui()
 
 utils.MainToggle.Name = "MainToggle"
-utils.MainToggle.Parent = AppleWareiOS
+utils.MainToggle.Parent = NebulaWare
 utils.MainToggle.BackgroundColor3 = Color3.fromRGB(23, 0, 40)
 utils.MainToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 utils.MainToggle.BorderSizePixel = 0
@@ -306,7 +306,7 @@ utils.tglCorner.Name = "tglCorner"
 utils.tglCorner.Parent = utils.MainToggle
 
 Menu.Name = "Menu"
-Menu.Parent = AppleWareiOS
+Menu.Parent = NebulaWare
 Menu.AnchorPoint = Vector2.new(0.5, 0.5)
 Menu.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Menu.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -379,7 +379,7 @@ versionBG.BorderSizePixel = 0
 versionBG.Position = UDim2.new(0, 143, 0.200000003, 1)
 versionBG.Size = UDim2.new(0, 63, 0, 15)
 
-V002.Name = "v1.0.0"
+V002.Name = "v2.0.0"
 V002.Parent = VersionBG
 V002.BackgroundTransparency = 1.000
 V002.BorderColor3 = Color3.fromRGB(27, 42, 53)
@@ -387,7 +387,7 @@ V002.BorderSizePixel = 0
 V002.Position = UDim2.new(0, 0, 0, 1)
 V002.Size = UDim2.new(0, 63, 1, 0)
 V002.FontFace =  Font.new("rbxassetid://11702779409", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-V002.Text = "v1.0.0"
+V002.Text = "v2.0.0"
 V002.TextColor3 = Color3.fromRGB(235, 235, 235)
 V002.TextSize = 14
 
@@ -503,7 +503,7 @@ KeyTime.BorderSizePixel = 0
 KeyTime.Position = UDim2.new(0, 75, 0, 80)
 KeyTime.Size = UDim2.new(0, 155, 0, 15)
 KeyTime.FontFace =  Font.new("rbxassetid://11702779409", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-KeyTime.Text = "infh - 99m"
+KeyTime.Text = "99h - 99m"
 KeyTime.TextColor3 = Color3.fromRGB(255, 255, 255)
 KeyTime.TextSize = 15.000
 KeyTime.TextXAlignment = Enum.TextXAlignment.Left
