@@ -1889,7 +1889,7 @@ local tabs = {
     ScriptFrame.Visible = false
     textboxHolder.Visible = false 
 
-tabs.AddTab("MyScript 1", "-- Thank you for using Apple-Ware!")
+tabs.AddTab("MyScript 1", "-- Thank you for using Nebula-Ware :3")
 
 NewTabBtn.MouseButton1Click:Connect(function()
 tabs.AddTab()
