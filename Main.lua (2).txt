@@ -23,10 +23,10 @@ end)
 
 local Speed, Admins = (tick()), ({});
 local Settings = ({
-	Prefix = (";"),
+	Prefix = ("!"),
 	ChatPrefix = ("!"),
 	Seperator = (","),
-	Version = ("1.2"),
+	Version = ("1.2.2"),
 	CustomUI = (Cmd().CustomUI or "rbxassetid://127095266446147"),
 
 	Aliases = ({}),
@@ -3336,13 +3336,13 @@ Command.Add({
 
 			Window:AddTab({
 				Title = "About",
-				Description = "List of credits & information about Cmd",
+				Description = "List of credits & information about liquid.wtf",
 				Tab = "Home",
 			})
 
 			Window:AddTab({
 				Title = "Prefixes",
-				Description = "Change the prefixes of Cmd",
+				Description = "Change the prefixes of Liquid",
 				Tab = "Home",
 			})
 
@@ -3354,7 +3354,7 @@ Command.Add({
 
 			Window:AddTab({
 				Title = "Theme",
-				Description = "Customize the look of Cmd",
+				Description = "Customize the look of Liquid",
 				Tab = "Home",
 			})
 
@@ -3403,7 +3403,7 @@ Command.Add({
 				Tab = "About",
 			})
 
-			Window:AddSection({ Title = "Cmd", Tab = "About" })
+			Window:AddSection({ Title = "Liquid", Tab = "About" })
 
 			Window:AddParagraph({
 				Title = "Version",
@@ -3413,13 +3413,13 @@ Command.Add({
 
 			Window:AddParagraph({
 				Title = "Command Count",
-				Description = Format("Currently Cmd has %d commands", GetTableLength(Commands)),
+				Description = Format("Currently Liquid Admin has %d commands", GetTableLength(Commands)),
 				Tab = "About",
 			})
 
 			Window:AddParagraph({
 				Title = "Invite",
-				Description = "https://discord.gg/pBDqEj4BSP",
+				Description = "https://discord.gg/liquid",
 				Tab = "About",
 			})
 
@@ -10948,7 +10948,7 @@ do
 			UI.Parent = nil
 			API:Notify({
 				Title = "Already loaded",
-				Description = "If you would like to reload Cmd rejoin or enable Developer mode!",
+				Description = "If you would like to reload liquid rejoin or enable Developer mode!",
 				Duration = 5,
 				Type = "Error",
 			})
@@ -11070,14 +11070,14 @@ Spawn(function()
 end)
 
 API:Notify({
-	Title = "Welcome (NEW UPDATE)",
+	Title = "Welcome (User)",
 	Description = Format(
 		"Loaded in %.2f seconds (Version %s)\nCommandBarPrefix: '%s'\nChat Prefix: '%s'\n<b>JOIN: %s</b>",
 		tick() - Speed,
 		Settings.Version,
 		Settings.Prefix,
 		Settings.ChatPrefix,
-		"discord.gg/pBDqEj4BSP"
+		"discord.gg/liquid -- pls join"
 	),
 	Duration = 15,
 	Type = "Info",
