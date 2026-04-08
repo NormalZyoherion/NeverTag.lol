@@ -1,7 +1,7 @@
 --[[
 ╭━╮╱╭╮╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╭╮            |
 ┃┃╰╮┃┃╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱┃┃            |
-┃╭╮╰╯┣━━┳╮╭┳━━┫┃╭━━┳━━┳━━╮┃┃╱┃┣━╯┣╮╭┳┳━╮     | Welcome to the Nameless Admin source, feel free to take a look around.
+┃╭╮╰╯┣━━┳╮╭┳━━┫┃╭━━┳━━┳━━╮┃┃╱┃┣━╯┣╮╭┳┳━╮     | Welcome to the 77 Admin source, feel free to take a look around.
 ┃┃╰╮┃┃╭╮┃╰╯┃┃━┫┃┃┃━┫━━┫━━┫┃╰━╯┃╭╮┃╰╯┣┫╭╮╮    | Enjoy.
 ┃┃╱┃┃┃╭╮┃┃┃┃┃━┫╰┫┃━╋━━┣━━┃┃╭━╮┃╰╯┃┃┃┃┃┃┃┃    |
 ╰╯╱╰━┻╯╰┻┻┻┻━━┻━┻━━┻━━┻━━╯╰╯╱╰┻━━┻┻┻┻┻╯╰╯    |
@@ -21,7 +21,7 @@
  local Notify = Notification.Notify;
 
  Notify({
-		 Description = "https://discord.gg/pnPVKKdpfd";
+		 Description = "https://discord.gg/krjrgrgGm";
 		 Title = "Join the Discord Server!";
 		 Duration = 20;
 		 
@@ -60,7 +60,7 @@
  }
  
  -- [[ Version ]] -- 
- currentversion = 1.13
+ currentversion = 1.05
  
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
@@ -762,7 +762,7 @@
  elseif PrefixChange == "p" or PrefixChange == "[" or PrefixChange == "P" then
 	 Notify({
 		 Description = "idk why but this prefix breaks changing the prefix so pick smthing else alr?";
-		 Title = "Nameless Admin";
+		 Title = "777 Admin";
 		 Duration = 5;
 		 
 		 });
@@ -770,7 +770,7 @@
  opt.prefix = PrefixChange
  Notify({
  Description = "Prefix set to " .. PrefixChange .. "";
- Title = "Nameless Admin";
+ Title = "777 Admin";
  Duration = 5;
  
  });
@@ -784,14 +784,14 @@
  if PrefixChange == nil then
  Notify({
  Description = "Please enter a valid prefix";
- Title = "Nameless Admin";
+ Title = "777 Admin";
  Duration = 5;
  
  });
  elseif PrefixChange == "p" or PrefixChange == "[" or PrefixChange == "P" then
 	 Notify({
 		 Description = "idk why but this prefix breaks changing the prefix so pick smthing else alr?";
-		 Title = "Nameless Admin";
+		 Title = "777 Admin";
 		 Duration = 5;
 		 
 		 });
@@ -800,7 +800,7 @@
  opt.prefix = PrefixChange
  Notify({
  Description = "Prefix saved to '" .. PrefixChange .. "'";
- Title = "Nameless Admin";
+ Title = "777 Admin";
  Duration = 5;
  
  });
@@ -843,7 +843,7 @@
  
  Notify({
  Description = "Hat orbit loaded, if you wanna orbit other people type in the chat .orbit playername";
- Title = "Nameless Admin";
+ Title = "777 Admin";
  Duration = 10;
  
  });
@@ -2047,7 +2047,7 @@ print(Time)
  cmd.add({"walkfling", "wfling"}, {"walkfling (wfling) [THANKS TO X]", "probably the best fling lol"}, function()
 	 Notify({
 		 Description = "Walkfling enabled";
-		 Title = "Nameless Admin";
+		 Title = "777 Admin";
 		 Duration = 5;
 		 
 		 });
@@ -2226,7 +2226,7 @@ print(Time)
  
  Notify({
  Description = "Rejoining...";
- Title = "Nameless Admin";
+ Title = "777 Admin";
  Duration = 5;
  
  });
